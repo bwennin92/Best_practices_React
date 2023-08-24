@@ -8,9 +8,8 @@ fetch(url)
 
 // you can also put this into a function so you can plug in any url to pull from the API endpoint
 
-const url = https://something.api.something.com/
+const url = "https://jsonplaceholder.typicode.com/users"
 function useThisFetch(url){
-  let result = "";
   fetch(url)
 .then((response) => response.json())
     .then((data) => {
